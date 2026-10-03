@@ -108,6 +108,8 @@ python examples/python/search_threads_ads.py
 
 The example reads [`data/sample-input.json`](data/sample-input.json), waits for the hosted Actor run to finish, and prints its Dataset items. Keep your API token private and out of committed files.
 
+For a sequential keyword workflow, use [`examples/python/batch_threads_ads_search.py`](examples/python/batch_threads_ads_search.py). It starts one Actor run for each query in its list, so charges apply to the results returned by each run.
+
 ## Input example
 
 The input below is a minimal one-result keyword search. Provide at least one search target: `query`, `pageId`, or `pageUrl`.
@@ -141,7 +143,7 @@ See [`docs/input-reference.md`](docs/input-reference.md) for all fields, default
 
 ### Python
 
-[`examples/python/search_threads_ads.py`](examples/python/search_threads_ads.py) runs the Actor and reads its Dataset. [`examples/python/export_threads_ads_csv.py`](examples/python/export_threads_ads_csv.py) writes a flattened CSV file.
+[`examples/python/search_threads_ads.py`](examples/python/search_threads_ads.py) runs one search, [`examples/python/batch_threads_ads_search.py`](examples/python/batch_threads_ads_search.py) runs a short keyword list sequentially, and [`examples/python/export_threads_ads_csv.py`](examples/python/export_threads_ads_csv.py) writes a flattened CSV file.
 
 ### JavaScript
 

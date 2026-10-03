@@ -99,6 +99,7 @@
     ],
     "exampleFiles": [
       "examples/python/search_threads_ads.py",
+      "examples/python/batch_threads_ads_search.py",
       "examples/python/export_threads_ads_csv.py"
     ],
     "faqFile": "docs/faq.md",
