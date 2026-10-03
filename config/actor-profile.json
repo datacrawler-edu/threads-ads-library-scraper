@@ -1,0 +1,151 @@
+{
+  "repository": {
+    "name": "threads-ads-library-scraper",
+    "description": "Python, JavaScript and cURL examples for collecting Meta Ads Library ads with Threads placements using the Apify Actor.",
+    "homepage": "https://apify.com/datascraperes/threads-ads-library-scraper?fpr=edudata",
+    "language": "Python",
+    "license": "MIT"
+  },
+  "actor": {
+    "displayName": "Threads Ads Library Scraper | Meta Ad Creatives",
+    "id": "datascraperes/threads-ads-library-scraper",
+    "storeUrl": "https://apify.com/datascraperes/threads-ads-library-scraper",
+    "apiBaseUrl": "https://api.apify.com/v2/actors/datascraperes~threads-ads-library-scraper",
+    "description": "Search Meta Ad Library by keyword or Facebook advertiser page for ads with Threads placements. Export deduplicated ads with normalized creative data and optional advertiser details."
+  },
+  "affiliate": {
+    "enabled": true,
+    "parameter": "fpr=edudata",
+    "actorUrl": "https://apify.com/datascraperes/threads-ads-library-scraper?fpr=edudata",
+    "pricingUrl": "https://apify.com/pricing?fpr=edudata"
+  },
+  "platform": {
+    "apifyFreePlan": {
+      "monthlyPrepaidUsage": "$5",
+      "renewsMonthly": true,
+      "noCreditCardRequired": true,
+      "unusedCreditsExpire": true,
+      "sourceUrl": "https://apify.com/pricing?fpr=edudata"
+    }
+  },
+  "interfaces": {
+    "web": {
+      "enabled": true,
+      "inputTab": "Input",
+      "outputTab": "Dataset",
+      "runAction": "Start",
+      "primaryInput": "query",
+      "inputLabel": "Keyword, Page ID, or Facebook page URL/alias",
+      "inputSummary": "Enter a keyword, numeric Facebook Page ID, or public Facebook page URL or alias. At least one search target is required.",
+      "exportFormats": [
+        "JSON",
+        "CSV",
+        "Excel"
+      ]
+    },
+    "api": {
+      "enabled": true,
+      "examples": [
+        "cURL",
+        "Python",
+        "JavaScript"
+      ]
+    }
+  },
+  "seo": {
+    "primaryKeyword": "Threads Ads Library scraper",
+    "secondaryKeywords": [
+      "Threads ad library API",
+      "Threads ads dataset",
+      "Meta Ads Library Threads placement",
+      "Threads competitor ad research",
+      "Threads advertising creative data"
+    ],
+    "topics": [
+      "threads-ads",
+      "threads-ad-library",
+      "meta-ads-library",
+      "advertising-data",
+      "apify",
+      "web-scraping",
+      "python",
+      "javascript",
+      "ad-research"
+    ],
+    "longTailIntents": [
+      "How to find Meta ads with Threads placement and export them to CSV",
+      "How to call a Threads ads scraper with Python",
+      "How to search Meta Ad Library by Facebook advertiser page for Threads ads"
+    ]
+  },
+  "content": {
+    "readmeSectionOrder": [
+      "What this repository helps you do",
+      "Example result",
+      "Run without code",
+      "Try it with Apify's free plan",
+      "Quick start for developers",
+      "Input example",
+      "Request examples",
+      "Output fields",
+      "Common use cases",
+      "Long-tail use-case sections",
+      "FAQ",
+      "Limits and pricing",
+      "Hosted version",
+      "Responsible use",
+      "Support",
+      "License"
+    ],
+    "exampleFiles": [
+      "examples/python/search_threads_ads.py",
+      "examples/python/export_threads_ads_csv.py"
+    ],
+    "faqFile": "docs/faq.md",
+    "noCodeGuideFile": "docs/no-code-guide.md"
+  },
+  "pricing": {
+    "summary": "Pay per event: each delivered ad creates one ad event and one creative_details event. Successful optional advertiser enrichment creates an advertiser_details event. Rates vary by Apify plan tier.",
+    "unit": "one delivered ad, its normalized creative payload, or one successful optional advertiser detail payload",
+    "price": "$0.00030-$0.00040 per ad or advertiser-details event and $0.000075-$0.00010 per creative-details event, depending on tier"
+  },
+  "distribution": {
+    "githubUrl": "https://github.com/datacrawler-edu/threads-ads-library-scraper",
+    "actorToGithubUrl": "https://github.com/datacrawler-edu/threads-ads-library-scraper",
+    "githubToActorUrl": "https://apify.com/datascraperes/threads-ads-library-scraper?fpr=edudata",
+    "organizationHubUrl": "https://github.com/datacrawler-edu",
+    "firstRelease": {
+      "tag": "v0.1.0",
+      "title": "Initial public integration examples"
+    }
+  },
+  "examples": {
+    "inputFile": "data/sample-input.json",
+    "outputFile": "data/sample-output.json",
+    "csvFile": "data/sample-output.csv"
+  },
+  "measurement": {
+    "observationWindowDays": 30,
+    "githubSignals": [
+      "views",
+      "uniqueVisitors",
+      "clones",
+      "referrers",
+      "popularContent"
+    ],
+    "apifySignals": [
+      "users",
+      "runs",
+      "datasetItems",
+      "revenue"
+    ],
+    "searchChecks": [
+      "site:github.com/datacrawler-edu/threads-ads-library-scraper",
+      "Threads Ads Library scraper API examples"
+    ]
+  },
+  "support": {
+    "issuesUrl": "https://github.com/datacrawler-edu/threads-ads-library-scraper/issues",
+    "actorSupportUrl": "https://apify.com/datascraperes/threads-ads-library-scraper?fpr=edudata"
+  }
+}

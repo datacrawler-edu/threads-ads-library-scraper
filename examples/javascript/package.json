@@ -1,0 +1,8 @@
+{
+  "name": "threads-ads-library-scraper-examples",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "apify-client": "^2.0.0"
+  }
+}

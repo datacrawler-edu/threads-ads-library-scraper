@@ -1,0 +1,16 @@
+{
+  "query": "ikea",
+  "country": "ES",
+  "pageId": "",
+  "pageUrl": "",
+  "activeStatus": "ACTIVE",
+  "mediaType": "ALL",
+  "adType": "ALL",
+  "contentLanguages": [],
+  "startDate": "",
+  "endDate": "",
+  "maxAds": 1,
+  "maxPages": 1,
+  "includeDetails": false,
+  "detailsLimit": 25
+}

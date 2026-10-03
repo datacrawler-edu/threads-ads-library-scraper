@@ -1,0 +1,42 @@
+{
+  "ad_archive_id": "3675117995977459",
+  "page_name": "IKEA",
+  "is_active": true,
+  "publisher_platform": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "THREADS"
+  ],
+  "creative": {
+    "title": "IKEA",
+    "format": "CAROUSEL",
+    "texts": [
+      "Encuentra un nuevo dueño para tus muebles\nDescubre cómo",
+      " "
+    ],
+    "ctaType": "SEE_DETAILS",
+    "linkUrl": "https://secondhand.ikea.com/es/es/?utm_source=meta&utm_medium=paid-social&utm_campaign=es_secondhand"
+  },
+  "collection": {
+    "query": "ikea",
+    "country": "ES",
+    "startDate": null,
+    "endDate": null,
+    "activeStatus": "ACTIVE",
+    "mediaType": "ALL",
+    "adType": "ALL",
+    "publisherPlatforms": [
+      "THREADS"
+    ],
+    "contentLanguages": [],
+    "maxAds": 1,
+    "maxPages": 1,
+    "pageId": null,
+    "pagesFetched": 1,
+    "termination": "page_delivered",
+    "uniqueAds": 1,
+    "budgetLimited": false
+  },
+  "sourceUrl": "https://www.facebook.com/ads/library/?id=3675117995977459",
+  "scrapedAt": "2026-10-02T16:40:45.564856+00:00"
+}
